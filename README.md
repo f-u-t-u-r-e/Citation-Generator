@@ -24,6 +24,11 @@
 [Jump to English](#english) | [回到顶部](#top)
 
 ### 项目简介
+做这个项目的原因是之前写论文，有些出版社对提交草稿的参考文献格式有强制性要求，且有的格式很多出版社不直接提供，需要自己用网站等工具转换
+于是想写一个能够更加方便且万能的转换器来解决这个问题
+当然，目前这个版本非常简陋，仅仅读取doi并根据doi获得符合格式要求的参考文献
+希望有大佬能用更方便高效的方法解决这个问题，也希望能有hxd来帮忙完善
+
 TransTool 是一个桌面 GUI 工具，用于把 DOI、论文链接、BibTeX、RIS 或纯文本参考文献转换为目标引用格式。
 
 ### 主要功能
@@ -89,7 +94,6 @@ python -m PyInstaller Trans_Tool.spec
 
 ### 注意事项
 - 本工具依赖外部服务（doi.org、Crossref、目标网站页面），网络异常时可能导致转换失败。
-- 某些站点存在反爬策略，可能影响 DOI 提取成功率。
 
 ---
 
@@ -163,4 +167,3 @@ python -m PyInstaller Trans_Tool.spec
 
 ### Notes
 - The app depends on external services (doi.org, Crossref, publisher websites). Network issues may cause conversion failures.
-- Some websites may block automated requests, which can affect DOI extraction.
