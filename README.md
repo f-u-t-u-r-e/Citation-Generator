@@ -29,7 +29,7 @@
 
 ## 当然，目前这个版本非常简陋，仅仅读取doi并根据doi获得符合格式要求的参考文献
 
-## 希望有大佬能用更方便高效的方法解决这个问题，也希望能有hxd来帮忙完善
+## 希望有大佬能用更方便高效的方法解决这个问题，也希望能有hxd来帮忙完善，技术含量不高，但我的想法是切实解决问题、提高效率
 
 ### 项目简介
 
@@ -107,6 +107,26 @@ python -m PyInstaller Trans_Tool.spec
 
 ### Overview
 TransTool is a desktop GUI application that converts DOI, paper URLs, BibTeX, RIS, or plain-text citations into target reference formats.
+
+
+## 💡 Motivation
+
+This project stems from a real pain point I experienced while writing academic papers: many publishers have strict formatting requirements for references in manuscript submissions. Since some specific formats aren't readily available, I had to rely on various websites to convert them manually one by one.
+
+## 🎯 Goal
+
+To solve this, I decided to build a more convenient and versatile citation format converter, aiming to save researchers from the tedious formatting process.
+
+## 🚧 Current Status
+
+Admittedly, the current version is still very bare-bones (MVP stage). 
+- Currently supported core feature: It simply reads a `DOI` and fetches the corresponding reference in the required format based on that DOI.
+
+## 🤝 Contributing
+
+I'm hoping some experienced developers might have more efficient ways to tackle this under the hood, and I welcome anyone interested to jump in and help improve the project! 
+
+While it might not be the most technically complex tool right now, the core idea is simply to solve a practical problem and boost productivity.
 
 ### Key Features
 - Auto-detect input type: DOI / URL / BibTeX / RIS / plain text
