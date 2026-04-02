@@ -1,5 +1,4 @@
-# TransTool
-
+# Citation-Generator
 <a id="top"></a>
 
 [![Homepage](https://img.shields.io/badge/Homepage-Citation--Generator-181717?logo=github)](https://github.com/f-u-t-u-r-e/Citation-Generator)
